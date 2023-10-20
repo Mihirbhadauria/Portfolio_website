@@ -4,11 +4,11 @@
 
 2. Make skeleton HTML and CSS (DONE)
 
-3. Create a responsive navigation bar 
+3. Create a responsive navigation bar (DONE)
 
-4. style navigation bar to fit propotionally 
+4. style navigation bar to fit propotionally (DONE) 
 
-5. create functionality to play video on website (at this stage trial any)
+5. create functionality to play video on website (DONE)
 
 6. implement scrolling functionality to reach "About" section
 
