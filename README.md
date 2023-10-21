@@ -10,9 +10,13 @@
 
 5. create functionality to play video on website (DONE)
 
-6. implement scrolling functionality to reach "About" section
+6. implement "About" section
 
 7. brief summary of myself and make sure to put socials i.e linkedin, github and Youtube
+
+8. Create a "Projects" heading >> leave it blank at the moment
+
+9. Create an element like arrow which takes back top of page
 
 
 
