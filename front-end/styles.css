@@ -59,4 +59,9 @@ video {
     max-width: 100%;          /* Ensures the video doesn't stretch beyond the container's width */
     display: block;           /* Removes unwanted space below the video element */
 }
-    
+
+h1 {
+    display: flex;            
+    justify-content: center;  
+    align-items: center;  
+}
