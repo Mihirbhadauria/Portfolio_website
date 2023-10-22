@@ -16,7 +16,11 @@
 
 8. Create a "Projects" heading >> leave it blank at the moment
 
-9. Create an element like arrow which takes back top of page
+9. Install and setup tailwind css
+
+10. Create a new branch and restructre the HTML to cater to tailwind css
+
+11. Create an element like arrow which takes back top of page
 
 
 
