@@ -6,48 +6,43 @@
     <script src="https://cdn.tailwindcss.com"></script> <!--I am using this due to tailwind weird installation not working, will change later-->
     <title>Mihir Bhadauria Portfolio Website</title>
 </head>
-<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+<body class="bg-gray-700 font-sans text-white leading-normal tracking-normal">
     <div> <!--Content Wrapper-->
         <!--Start Navigation-->
         <nav class="bg-gray-800 p-4">
-            <div class="flex justify-between items-center"> <!-- This flex container will hold both your name and the navigation, aligning items vertically -->
-                <!-- This div is for the brand/name -->
+            <div class="flex justify-between items-center"> 
                 <div class="text-white">
-                    <span class="font-semibold text-xl">Mihir Bhadauria</span>
+                    <!-- Increased font size for the name -->
+                    <span class="font-semibold text-2xl">Mihir Bhadauria</span> 
                 </div>
-                <!-- This div is for the navigation links -->
                 <div>
-                    <ul class="flex space-x-4">
+                    <ul class="flex space-x-4 text-lg"> <!-- Increased font size for the navigation elements -->
                         <li><a href="#About" class="text-teal-200 hover:text-white">About</a></li>
                         <li><a href="#Projects" class="text-teal-200 hover:text-white">Projects</a></li>
                         <li><a href="#contact" class="text-teal-200 hover:text-white">Contact</a></li>
-                        <li><a href="./Mihir Bhadauria Resume.pdf" class="text-sm px-4 py-2 leading-none border rounded text-white border-purple-700 hover:border-transparent hover:text-purple-500 hover:bg-dark-purple">Resume</a></li>
+                        <!-- Added more styling to the Resume link for emphasis -->
+                        <li><a href="./Assets/Mihir Bhadauria Resume.pdf" class="px-4 py-2 font-bold text-white bg-purple-600 rounded hover:bg-purple-500">Resume</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!--End Navigation-->
 
-        <main class="container mx-auto">
-            <div class ="videobackground">
-                <video autoplay muted controls id="myVideo">
-                    <source src="Family.mp4" type="video/mp4">
+        <main class="text-center">
+            <div class="videobackground w-full h-auto"> <!-- This ensures your video takes up the full width of its container and maintains its aspect ratio -->
+                <video autoplay muted controls id="myVideo" class="max-w-fit mx-auto"> <!-- This limits the video's width and auto margins center it -->
+                    <source src="./Assets/Family.mp4" type="video/mp4">
                 </video>    
             </div>
-        
+
             <h1>About</h1>
-        
+
             <p>Put icons here such Linkedin, Youtube, Email</p>
-        
-            <p> Welcome to my website, my name is Mihir Bhadauria and I am data engineer with 3 years of experience in the industry. I specalise in Data migration to cloud 
-                and data operations.
-                
-            </p>
-            
+
+            <p> Welcome to my website, my name is Mihir Bhadauria and I am a data engineer with 3 years of experience in the industry. I specialize in Data migration to cloud and data operations.</p>
+
             <h1>Projects</h1>
         </main>
     </div>
-
-
 </body>
 </html>
