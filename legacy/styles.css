@@ -1,0 +1,73 @@
+  nav{
+    background-color: #ddd;
+    overflow: hidden;
+  }
+
+  nav a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: inline;
+    float: right;
+    border-right: 1px solid black;
+    padding: 15px;
+  }
+
+nav a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+nav .icon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    nav a:not(:first-child) {display: none;}
+    nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    nav.responsive {position: relative;}
+    nav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+
+.videobackground {
+    display: flex;            /* Establishes a flex container */
+    justify-content: center;  /* Centers the child element(s) horizontally */
+    align-items: center;      /* Centers the child element(s) vertically */
+    /*height: 100vh;            /* Makes the container take up the full height of the viewport */
+}
+
+video {
+    max-width: 100%;          /* Ensures the video doesn't stretch beyond the container's width */
+    display: block;           /* Removes unwanted space below the video element */
+}
+
+h1 {
+    display: flex;            
+    justify-content: center;  
+    align-items: center;  
+}
+
+p {
+  display: flex;            
+  justify-content: center;  
+  align-items: center;  
+}

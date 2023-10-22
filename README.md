@@ -10,11 +10,11 @@
 
 5. create functionality to play video on website (DONE)
 
-6. implement "About" section
+6. implement "About" section (DONE)
 
-7. brief summary of myself and make sure to put socials i.e linkedin, github and Youtube
+7. brief summary of myself and make sure to put socials i.e linkedin, github and Youtube (DONE)
 
-8. Create a "Projects" heading >> leave it blank at the moment
+8. Create a "Projects" heading >> leave it blank at the moment (DONE)
 
 9. Install and setup tailwind css
 
