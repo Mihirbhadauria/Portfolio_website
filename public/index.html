@@ -6,42 +6,29 @@
     <script src="https://cdn.tailwindcss.com"></script> <!--I am using this due to tailwind weird installation not working, will change later-->
     <title>Mihir Bhadauria Portfolio Website</title>
 </head>
-<body class="">
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
     <div> <!--Content Wrapper-->
-        <div>
-            <nav>
-                <ul>
-                    <li class="text-3xl font-bold underline pb-2">
-                        <a href="./Mihir Bhadauria Resume.pdf">
-                            <span>Resume</span> 
-                        </a>
-                    </li>
+        <!--Start Navigation-->
+        <nav class="bg-gray-800 p-4">
+            <div class="flex justify-between items-center"> <!-- This flex container will hold both your name and the navigation, aligning items vertically -->
+                <!-- This div is for the brand/name -->
+                <div class="text-white">
+                    <span class="font-semibold text-xl">Mihir Bhadauria</span>
+                </div>
+                <!-- This div is for the navigation links -->
+                <div>
+                    <ul class="flex space-x-4">
+                        <li><a href="#About" class="text-teal-200 hover:text-white">About</a></li>
+                        <li><a href="#Projects" class="text-teal-200 hover:text-white">Projects</a></li>
+                        <li><a href="#contact" class="text-teal-200 hover:text-white">Contact</a></li>
+                        <li><a href="./Mihir Bhadauria Resume.pdf" class="text-sm px-4 py-2 leading-none border rounded text-white border-purple-700 hover:border-transparent hover:text-purple-500 hover:bg-dark-purple">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--End Navigation-->
 
-                    <li>
-                        <a href="#contact"> 
-                            <span>Contact</span> 
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="#Projects"> 
-                            <span>Projects</span> 
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#About"> 
-                            <span>About</span> 
-                        </a>
-                    </li>
-                    
-                </ul>
-            </nav>
-        </div> <!--End navigation-->
-
-        <main class="">
-            <h1>Mihir Bhadauria Portfolio Website</h1>
-            
+        <main class="container mx-auto">
             <div class ="videobackground">
                 <video autoplay muted controls id="myVideo">
                     <source src="Family.mp4" type="video/mp4">
