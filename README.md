@@ -16,9 +16,9 @@
 
 8. Create a "Projects" heading >> leave it blank at the moment (DONE)
 
-9. Install and setup tailwind css
+9. Install and setup tailwind css (technically DONE)
 
-10. Create a new branch and restructre the HTML to cater to tailwind css
+10. Create a new branch and restructre the HTML to cater to tailwind css (DONE)
 
 11. Create an element like arrow which takes back top of page
 
