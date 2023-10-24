@@ -25,5 +25,5 @@
 
 12. Add a back to top button MVP (DONE)
 
-13. 
+13. Have a final review then move on to making projects
 
