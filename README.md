@@ -21,7 +21,9 @@
 10. Create a new branch and restructre the HTML to cater to tailwind css (DONE)
 
 11. Create an element like arrow which takes back top of page
-
+    - Install MUI (DONE)
+    - Understand/Learn MUI (DOING)
+    - 
 
 
 
