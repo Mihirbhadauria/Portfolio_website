@@ -25,5 +25,15 @@
 
 12. Add a back to top button MVP (DONE)
 
-13. Have a final review then move on to making projects
+13. Have a final review then move on to making projects (DONE)
+
+-------------------------------------------------------------------------------------------------------------------
+
+Now is the time for me to develop 2 quality data engineering projects 
+
+14. Complete 2x Data Engineering projects
+
+15. remove placeholder project image with a graphic related to project with key techs possibly
+
+16. Record a short video (<1 min) with introduction and quick breakdown of two projects.
 
